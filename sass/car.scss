@@ -1,0 +1,72 @@
+        @import 'top.scss';
+        @import 'header.scss';
+        .container {
+            width: 1090px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            border-bottom: 1px solid #cccccc;
+        }
+        
+        .coupon {
+            height: 100%;
+            .wrap {
+                width: 1090px;
+                height: 40px;
+                margin-top: 10px;
+                border: 1px solid #eaeaea;
+                .left {
+                    float: left;
+                    height: 40px;
+                    i {
+                        display: block;
+                        float: left;
+                        background: url(../img/yxcar.png) no-repeat;
+                        background-position: 0px -105px;
+                        width: 28px;
+                        height: 20px;
+                        margin: 9px 17px 0 12px;
+                    }
+                    span {
+                        display: block;
+                        float: left;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                }
+                .right {
+                    float: right;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0 26px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: #E36844;
+                    cursor: pointer;
+                    position: relative;
+                    font-size: 12px;
+                    i {
+                        display: block;
+                        float: right;
+                        background: url(../img/jlt4.png) no-repeat;
+                        background-position: 0px -856px;
+                        width: 12px;
+                        height: 7px;
+                        position: absolute;
+                        top: 16px;
+                        right: 9px;
+                    }
+                }
+            }
+        }
+        
+        .cart {
+            height: 100%;
+            .content {
+                width: 1090px;
+                padding-bottom: 40px;
+                margin-top: 10px;
+                border: 1px solid #cccccc;
+            }
+        }

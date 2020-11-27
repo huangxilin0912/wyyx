@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>列表页</title>
+    <title>购物车</title>
     <link rel="stylesheet" href="../dist/css/reset.css">
-    <link rel="stylesheet" href="../dist/css/list.css">
-    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link rel="stylesheet" href="../dist/css/car.css">
 </head>
 
 <body>
@@ -100,50 +99,24 @@
         </div>
     </div>
 
-    <div class="swiper">
-        <div class="swiper-container container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="../img/banner1.webp" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner2.webp" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner3.webp" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner4.webp" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner5.webp" alt=""></div>
-                <div class="swiper-slide"><img src="../img/banner6.webp" alt=""></div>
+    <div class="coupon">
+        <div class="wrap container">
+            <div class="left">
+                <i></i>
+                <span>购物车可领优惠券</span>
             </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next button"></div>
-            <div class="swiper-button-prev button"></div>
+            <div class="right">
+                <span>领券</span>
+                <i></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <div class="content container">
+
         </div>
     </div>
 </body>
-
-
-<script src="../dist/js/swiper.min.js"></script>
-<script src="../dist/js/jquery-3.5.1.min.js"></script>
-<script src="../dist/js/jquery.easing.min.js"></script>
-
-
-
-<!-- 轮播图部分js -->
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
 
 </html>
